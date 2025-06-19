@@ -1,0 +1,1 @@
+print("exec from command line")
