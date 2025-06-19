@@ -196,3 +196,5 @@ cython_debug/
 .idea
 scripts/get-pip.py
 data/input/*.pdf
+data/output/*.json
+data/output/*.csv

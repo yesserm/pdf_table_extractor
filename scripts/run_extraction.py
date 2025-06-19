@@ -16,7 +16,7 @@ def process(pdf_name: str):
     for table in extracted_tables:
         table_extracted = table["table"]
 
-        file_name = f"{os.path.splitext(table['filename'])[0]}_t{iterator}"
+        file_name = f"{os.path.splitext(pdf_name)[0]}_t{iterator}"
 
         if FORMATO == "json":
             output_file = os.path.join(OUTPUT_DIR, f"{file_name}.json")
