@@ -15,7 +15,7 @@ def extract_tables(pdf_path: str) -> List[Dict]:
                 if not table:
                     continue
 
-            extracted_tables.append({
-                'table': table,
-            })
+                extracted_tables.append({
+                    'table': table,
+                })
     return extracted_tables
